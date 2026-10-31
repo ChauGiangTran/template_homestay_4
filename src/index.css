@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Semantic Design Tokens (Nature Editorial - VUONTHONG) */
+    --theme-canvas: #FAFBF9;
+    --theme-surface: #F0F4F1;
+    --theme-primary: #18281E;
+    --theme-accent: #876D4B;
+    --theme-border: #DCE4DD;
+    --theme-text: #18281E;
+    --theme-text-muted: #718073;
+    --theme-pine: #23392B;
+    --theme-forest: #3E4D40;
+
+    /* Backward Compatible Token Aliases */
+    --color-canvas: var(--theme-canvas);
+    --color-surface: var(--theme-surface);
+    --color-primary: var(--theme-primary);
+    --color-pine: var(--theme-pine);
+    --color-forest: var(--theme-forest);
+    --color-timber: var(--theme-accent);
+    --color-mist: var(--theme-border);
+    --color-subtle: var(--theme-text-muted);
+
+    /* Typography */
+    --font-heading: 'Newsreader', Georgia, serif;
+    --font-body: 'Public Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+    background-color: var(--color-canvas);
+    color: var(--color-primary);
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.015em;
+  }
+
+  /* Focus visible accessibility requirement */
+  :focus-visible {
+    outline: 2px solid var(--color-timber);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Custom Editorial Utilities */
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Semantic Design Token Utilities */
+.bg-theme-canvas { background-color: var(--theme-canvas); }
+.bg-theme-surface { background-color: var(--theme-surface); }
+.text-theme-primary { color: var(--theme-primary); }
+.text-theme-accent { color: var(--theme-accent); }
+.text-theme-muted { color: var(--theme-text-muted); }
+.border-theme-border { border-color: var(--theme-border); }
+
+/* Subtle texture & image overlay */
+.editorial-frame {
+  position: relative;
+}
+
+.editorial-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(24, 40, 30, 0.08);
+  pointer-events: none;
+}

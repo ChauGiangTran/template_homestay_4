@@ -1,0 +1,2453 @@
+{
+  "template_id": "template_homstay4",
+  "theme_id": "nature-editorial",
+  "pages": [
+    {
+      "page_name": "Home",
+      "path": "/",
+      "layouts": [
+        {
+          "layout_name": "Header",
+          "data_fields": [
+            {
+              "key": "brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "brand_tagline",
+              "valueType": 0,
+              "stringData": "Chạm vào bình yên, giữa miền xanh bất tận"
+            },
+            {
+              "key": "brand_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo.svg"
+            },
+            {
+              "key": "hotline_phone",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Demo)"
+            },
+            {
+              "key": "booking_btn_label",
+              "valueType": 0,
+              "stringData": "Đặt Kỳ Nghỉ"
+            },
+            {
+              "key": "nav_menu",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trang Chủ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Hạng Phòng"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/rooms"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Câu Chuyện"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/about"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trải Nghiệm"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/experiences"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Thư Viện Ảnh"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/gallery"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Liên Hệ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/contact"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Hero",
+          "data_fields": [
+            {
+              "key": "hero_variant",
+              "valueType": 0,
+              "stringData": "split"
+            },
+            {
+              "key": "hero_badge",
+              "valueType": 0,
+              "stringData": "Trở về với sự thảnh thơi"
+            },
+            {
+              "key": "hero_title",
+              "valueType": 0,
+              "stringData": "Chạm vào bình yên, giữa miền xanh bất tận"
+            },
+            {
+              "key": "hero_description",
+              "valueType": 0,
+              "stringData": "Một trạm dừng mộc mạc nép mình bên triền rừng thông bạt ngàn Đà Lạt. Nơi bạn thức giấc cùng biển mây tràn qua ô cửa kính, nhấp ngụm trà nóng bên hiên gỗ và quây quần bên bếp lửa hồng mỗi hoàng hôn buông."
+            },
+            {
+              "key": "hero_cta_primary",
+              "valueType": 0,
+              "stringData": "Khám Phá Không Gian"
+            },
+            {
+              "key": "hero_cta_primary_url",
+              "valueType": 3,
+              "urlData": "#rooms"
+            },
+            {
+              "key": "hero_cta_secondary",
+              "valueType": 0,
+              "stringData": "Gửi Yêu Cầu Đặt Phòng"
+            },
+            {
+              "key": "hero_cta_secondary_url",
+              "valueType": 3,
+              "urlData": "/contact"
+            },
+            {
+              "key": "hero_image",
+              "valueType": 4,
+              "resourceData": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=85"
+            },
+            {
+              "key": "hero_altitude_spec",
+              "valueType": 0,
+              "stringData": "1.520m so với mực nước biển"
+            },
+            {
+              "key": "hero_temperature_spec",
+              "valueType": 0,
+              "stringData": "16°C · Sương sớm trong lành"
+            }
+          ]
+        },
+        {
+          "layout_name": "AboutStory",
+          "data_fields": [
+            {
+              "key": "about_tagline",
+              "valueType": 0,
+              "stringData": "Triết lý lưu trú"
+            },
+            {
+              "key": "about_title",
+              "valueType": 0,
+              "stringData": "VUONTHONG không chỉ là chốn nghỉ, đó là nhịp điệu của sự tĩnh lặng"
+            },
+            {
+              "key": "about_quote",
+              "valueType": 0,
+              "stringData": "“Mỗi tiếng thông reo trong gió sớm như lời nhắc nhở nhẹ nhàng: hãy buông bỏ lo toan phố thị để thật sự hiện diện nơi đây.”"
+            },
+            {
+              "key": "about_story_p1",
+              "valueType": 0,
+              "stringData": "Được xây dựng từ lòng trân quý đối với địa hình tự nhiên của Đà Lạt, chúng tôi giữ trọn vẹn từng gốc thông cổ thụ, uốn lượn các nếp nhà theo triền dốc tự nhiên để mỗi căn phòng đều sở hữu tầm nhìn không góc chết ra thung lũng."
+            },
+            {
+              "key": "about_story_p2",
+              "valueType": 0,
+              "stringData": "Không có tivi ồn ào hay thiết bị công nghiệp xô bồ. Tại đây chỉ có tiếng lá thông reo, hương thơm nồng của gỗ thông mộc, kệ sách nhỏ bên khung cửa và tách cà phê Arabica Cầu Đất vừa mới rang xay."
+            },
+            {
+              "key": "about_stat_elevation",
+              "valueType": 0,
+              "stringData": "1.500m"
+            },
+            {
+              "key": "about_stat_rooms",
+              "valueType": 0,
+              "stringData": "12 Căn Mộc"
+            },
+            {
+              "key": "about_stat_forest_area",
+              "valueType": 0,
+              "stringData": "3.200m²"
+            },
+            {
+              "key": "about_main_image",
+              "valueType": 4,
+              "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=85"
+            },
+            {
+              "key": "about_secondary_image",
+              "valueType": 4,
+              "resourceData": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=85"
+            }
+          ]
+        },
+        {
+          "layout_name": "Rooms",
+          "data_fields": [
+            {
+              "key": "rooms_variant",
+              "valueType": 0,
+              "stringData": "editorial"
+            },
+            {
+              "key": "rooms_title",
+              "valueType": 0,
+              "stringData": "Không Gian Chữa Lành"
+            },
+            {
+              "key": "rooms_subtitle",
+              "valueType": 0,
+              "stringData": "Tất cả các phòng đều được chăm chút tỉ mỉ với vật liệu gỗ ấm áp, chăn nệm cao cấp và view trọn thung lũng thông."
+            },
+            {
+              "key": "rooms_list",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "phong-view-thung-lung"
+                  },
+                  "slug": {
+                    "valueType": 0,
+                    "stringData": "phong-view-thung-lung"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Phòng Mây Ngàn · View Thung Lũng"
+                  },
+                  "tagline": {
+                    "valueType": 0,
+                    "stringData": "Tầng cao nhất đón biển mây sáng sớm"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Cửa kính panorama chạm sàn 180 độ hướng thẳng thung lũng thông xanh. Có ban công riêng đón gió mát và bồn tắm gỗ ngâm thảo mộc thiên nhiên."
+                  },
+                  "price_per_night": {
+                    "valueType": 1,
+                    "numberData": 1350000
+                  },
+                  "capacity": {
+                    "valueType": 0,
+                    "stringData": "2 Người lớn"
+                  },
+                  "area_sqm": {
+                    "valueType": 1,
+                    "numberData": 36
+                  },
+                  "bed_type": {
+                    "valueType": 0,
+                    "stringData": "1 Giường King 1m8"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=85"
+                  },
+                  "amenities": {
+                    "valueType": 7,
+                    "arrayString": [
+                      "Ban công ngắm mây",
+                      "Bồn tắm thảo mộc",
+                      "Máy sưởi ấm mùa đông",
+                      "Bữa sáng đặc sản",
+                      "Kệ sách chọn lọc"
+                    ]
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Được yêu thích nhất"
+                  },
+                  "is_featured": {
+                    "valueType": 2,
+                    "booleanData": true
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "phong-ap-mai-am-cung"
+                  },
+                  "slug": {
+                    "valueType": 0,
+                    "stringData": "phong-ap-mai-am-cung"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Phòng Áp Mái · Hơi Thở Gỗ Mộc"
+                  },
+                  "tagline": {
+                    "valueType": 0,
+                    "stringData": "Không gian kín đáo, ấm cúng dành cho cặp đôi"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Mái dốc ốp gỗ thông tự nhiên tỏa hương thơm nhẹ nhàng. Cửa sổ trần đón ánh trăng và nắng sớm le lói bên rặng cây."
+                  },
+                  "price_per_night": {
+                    "valueType": 1,
+                    "numberData": 1050000
+                  },
+                  "capacity": {
+                    "valueType": 0,
+                    "stringData": "2 Người lớn"
+                  },
+                  "area_sqm": {
+                    "valueType": 1,
+                    "numberData": 28
+                  },
+                  "bed_type": {
+                    "valueType": 0,
+                    "stringData": "1 Giường Queen 1m6"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=85"
+                  },
+                  "amenities": {
+                    "valueType": 7,
+                    "arrayString": [
+                      "Cửa sổ trần ngắm sao",
+                      "Máy sấy tóc & trà thơm",
+                      "Đệm lông vũ êm ái",
+                      "Bữa sáng tại phòng"
+                    ]
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Lãng mạn"
+                  },
+                  "is_featured": {
+                    "valueType": 2,
+                    "booleanData": false
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "bungalow-gia-dinh"
+                  },
+                  "slug": {
+                    "valueType": 0,
+                    "stringData": "bungalow-gia-dinh"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Bungalow Vườn Hoa · Nhóm & Gia Đình"
+                  },
+                  "tagline": {
+                    "valueType": 0,
+                    "stringData": "Hiên nhà rộng rãi quây quần bên luống hoa cẩm tú cầu"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Bungalow biệt lập giữa vườn hoa, phòng khách sinh hoạt chung ấm cúng cùng 2 phòng ngủ riêng biệt đầy đủ tiện nghi."
+                  },
+                  "price_per_night": {
+                    "valueType": 1,
+                    "numberData": 2450000
+                  },
+                  "capacity": {
+                    "valueType": 0,
+                    "stringData": "4 - 6 Khách"
+                  },
+                  "area_sqm": {
+                    "valueType": 1,
+                    "numberData": 65
+                  },
+                  "bed_type": {
+                    "valueType": 0,
+                    "stringData": "2 Giường King + Sofa bed"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=85"
+                  },
+                  "amenities": {
+                    "valueType": 7,
+                    "arrayString": [
+                      "Hiên thưởng trà riêng",
+                      "Khu BBQ sân vườn",
+                      "Bếp mini & trà gừng",
+                      "Tủ lạnh & lò vi sóng"
+                    ]
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Không gian rộng"
+                  },
+                  "is_featured": {
+                    "valueType": 2,
+                    "booleanData": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Experiences",
+          "data_fields": [
+            {
+              "key": "experiences_title",
+              "valueType": 0,
+              "stringData": "Nhịp Điệu Kỳ Nghỉ"
+            },
+            {
+              "key": "experiences_subtitle",
+              "valueType": 0,
+              "stringData": "Những khoảnh khắc dung dị giúp bạn tìm lại sự cân bằng trong tâm hồn"
+            },
+            {
+              "key": "experiences_list",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "exp-morning"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "05:30 · Đón Sương Sớm & Ngắm Mây"
+                  },
+                  "time_slot": {
+                    "valueType": 0,
+                    "stringData": "Sáng sớm tinh mơ"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Bước ra ban công khi thung lũng còn ngái ngủ trong làn mây bồng bềnh, thưởng thức tách trà atiso ấm nóng."
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Thiên nhiên"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "exp-afternoon"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "15:00 · Trà Chiều & Đọc Sách Bên Hiên"
+                  },
+                  "time_slot": {
+                    "valueType": 0,
+                    "stringData": "Chiều nắng nhẹ"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Chọn một cuốn tản văn yêu thích trên kệ gỗ, vuốt ve chú cún nhỏ ngoan ngoãn dưới chân hiên rợp bóng thông."
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Tĩnh lặng"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "exp-night"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "19:00 · Đốt Lửa Trại & Khoai Nướng"
+                  },
+                  "time_slot": {
+                    "valueType": 0,
+                    "stringData": "Đêm se lạnh"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Quây quần bên đốm lửa bập bùng, nghe khúc nhạc mộc mạc acoustic và chia sẻ câu chuyện cùng những người bạn mới."
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Ấm cúng"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Amenities",
+          "data_fields": [
+            {
+              "key": "amenities_title",
+              "valueType": 0,
+              "stringData": "Tiện Ích Bản Địa & Tận Tâm"
+            },
+            {
+              "key": "amenities_subtitle",
+              "valueType": 0,
+              "stringData": "Mỗi chi tiết nhỏ đều hướng đến sự thoải mái và tự nhiên nhất cho chuyến đi của bạn."
+            },
+            {
+              "key": "amenities_items",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "amenity-1"
+                  },
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "Bữa Sáng Nông Trại"
+                  },
+                  "icon_name": {
+                    "valueType": 0,
+                    "stringData": "Coffee"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Bánh mì giòn nóng, mứt dâu tây Đà Lạt tự làm và cà phê mộc pha phin mỗi sớm mai."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Ẩm thực"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "amenity-2"
+                  },
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "Lò Sưởi Bếp Lửa"
+                  },
+                  "icon_name": {
+                    "valueType": 0,
+                    "stringData": "Flame"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Khu vực đốt lửa sưởi ấm ngoài trời xua tan cái lạnh sương đêm cao nguyên."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Trải nghiệm"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "amenity-3"
+                  },
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "Cún Cưng Thân Thiện"
+                  },
+                  "icon_name": {
+                    "valueType": 0,
+                    "stringData": "Heart"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Những bạn cún hiền lành luôn sẵn sàng bầu bạn và cùng dạo bước qua vườn thông."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Không gian"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "amenity-4"
+                  },
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "Trợ Lý Du Khách 24/7"
+                  },
+                  "icon_name": {
+                    "valueType": 0,
+                    "stringData": "Compass"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Hỗ trợ thuê xe máy, xe đưa đón sân bay Liên Khương và chia sẻ tọa độ ngắm hoàng hôn đẹp."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Dịch vụ"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Gallery",
+          "data_fields": [
+            {
+              "key": "gallery_variant",
+              "valueType": 0,
+              "stringData": "masonry"
+            },
+            {
+              "key": "gallery_title",
+              "valueType": 0,
+              "stringData": "Góc Nhìn Thung Lũng"
+            },
+            {
+              "key": "gallery_subtitle",
+              "valueType": 0,
+              "stringData": "Những khung hình lưu lại nét đẹp bình dị qua bốn mùa thông reo."
+            },
+            {
+              "key": "gallery_items",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-1"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Hiên gỗ nhìn ra biển mây"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Cảnh quan"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "wide"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-2"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Phòng ngủ ấm áp ánh đèn vàng"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Phòng nghỉ"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "portrait"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-3"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Bếp củi đêm lạnh"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Khoảnh khắc"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "square"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-4"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Bình minh len qua rặng thông"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Cảnh quan"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "portrait"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-5"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Vườn hoa cẩm tú cầu nở rộ"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Thiên nhiên"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "wide"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Testimonials",
+          "data_fields": [
+            {
+              "key": "testimonials_title",
+              "valueType": 0,
+              "stringData": "Cảm Nhận Từ Khách Lưu Trú"
+            },
+            {
+              "key": "testimonials_subtitle",
+              "valueType": 0,
+              "stringData": "Những dòng cảm xúc mẫu minh họa cho không gian tĩnh tại tại Vườn Thông (Dữ liệu trải nghiệm demo)."
+            },
+            {
+              "key": "testimonials_items",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "review-1"
+                  },
+                  "guest_name": {
+                    "valueType": 0,
+                    "stringData": "Hà Linh & Tuấn Anh (Demo)"
+                  },
+                  "stay_date": {
+                    "valueType": 0,
+                    "stringData": "Tháng 10, 2026"
+                  },
+                  "room_name": {
+                    "valueType": 0,
+                    "stringData": "Phòng Mây Ngàn"
+                  },
+                  "quote": {
+                    "valueType": 0,
+                    "stringData": "Sáng mở mắt thấy mây tràn vào sát cửa kính. Tách trà nóng, tiếng thông reo xào xạc trong gió mát, không gian tĩnh lặng tuyệt đối. Đây là kỳ nghỉ chữa lành đáng nhớ nhất của hai đứa mình."
+                  },
+                  "rating": {
+                    "valueType": 1,
+                    "numberData": 5
+                  },
+                  "guest_avatar": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "review-2"
+                  },
+                  "guest_name": {
+                    "valueType": 0,
+                    "stringData": "Minh Trí & Gia đình (Demo)"
+                  },
+                  "stay_date": {
+                    "valueType": 0,
+                    "stringData": "Tháng 09, 2026"
+                  },
+                  "room_name": {
+                    "valueType": 0,
+                    "stringData": "Bungalow Vườn Hoa"
+                  },
+                  "quote": {
+                    "valueType": 0,
+                    "stringData": "Gia đình mình có 2 bé nhỏ, các bạn nhân viên cực kỳ chu đáo chuẩn bị thêm đệm ấm và than nướng BBQ. Không khí trong lành, các bé mê mẩn chơi cùng chú cún ở sân vườn thông."
+                  },
+                  "rating": {
+                    "valueType": 1,
+                    "numberData": 5
+                  },
+                  "guest_avatar": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Location",
+          "data_fields": [
+            {
+              "key": "location_title",
+              "valueType": 0,
+              "stringData": "Vị Trí & Đường Về Vườn Thông"
+            },
+            {
+              "key": "location_address",
+              "valueType": 0,
+              "stringData": "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)"
+            },
+            {
+              "key": "location_altitude",
+              "valueType": 0,
+              "stringData": "Độ cao 1.520m · Cách chợ Đà Lạt 3.8km (Dữ liệu demo)"
+            },
+            {
+              "key": "location_map_url",
+              "valueType": 3,
+              "urlData": "https://maps.google.com/?q=Da+Lat"
+            },
+            {
+              "key": "location_highlights",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "Hồ Xuân Hương"
+                  },
+                  "distance": {
+                    "valueType": 0,
+                    "stringData": "10 phút đi xe"
+                  },
+                  "note": {
+                    "valueType": 0,
+                    "stringData": "Tuyến đường ngắm biệt thự cổ thanh bình"
+                  }
+                },
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "Rừng Thông Dinh 1"
+                  },
+                  "distance": {
+                    "valueType": 0,
+                    "stringData": "5 phút đi xe"
+                  },
+                  "note": {
+                    "valueType": 0,
+                    "stringData": "Cung đường đi dạo lý tưởng buổi sáng"
+                  }
+                },
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "Sân bay Liên Khương"
+                  },
+                  "distance": {
+                    "valueType": 0,
+                    "stringData": "40 phút di chuyển"
+                  },
+                  "note": {
+                    "valueType": 0,
+                    "stringData": "Có hỗ trợ xe đưa đón riêng tận cửa"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "FAQ",
+          "data_fields": [
+            {
+              "key": "faq_title",
+              "valueType": 0,
+              "stringData": "Câu Hỏi Thường Gặp"
+            },
+            {
+              "key": "faq_subtitle",
+              "valueType": 0,
+              "stringData": "Một vài lưu ý nhỏ giúp kỳ nghỉ của bạn tại Vườn Thông thêm phần trọn vẹn"
+            },
+            {
+              "key": "faq_items",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "faq-1"
+                  },
+                  "question": {
+                    "valueType": 0,
+                    "stringData": "Giờ nhận phòng và trả phòng quy định như thế nào?"
+                  },
+                  "answer": {
+                    "valueType": 0,
+                    "stringData": "Giờ nhận phòng tiêu chuẩn là từ 14:00 và giờ trả phòng trước 12:00 trưa. Trường hợp bạn đến sớm hơn hoặc muốn gửi hành lý để đi dạo, homestay luôn có khu vực tiếp đón và bảo quản hành lý chu đáo miễn phí."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Lưu trú"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "faq-2"
+                  },
+                  "question": {
+                    "valueType": 0,
+                    "stringData": "Đường xuống homestay xe ô tô có vào tận nơi được không?"
+                  },
+                  "answer": {
+                    "valueType": 0,
+                    "stringData": "Đường Hoàng Hoa Thám ô tô 4 - 16 chỗ vào thoải mái. Đoạn rẽ vào dốc thung lũng được đổ bê tông kiên cố, xe 4-7 chỗ gầm cao xuống tận sân đỗ xe của homestay. Homestay luôn có nhân viên hỗ trợ mang hành lý cho bạn."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Di chuyển"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "faq-3"
+                  },
+                  "question": {
+                    "valueType": 0,
+                    "stringData": "Homestay có cho phép mang thú cưng đi cùng không?"
+                  },
+                  "answer": {
+                    "valueType": 0,
+                    "stringData": "Chúng tôi rất yêu quý động vật và chào đón các bé thú cưng ngoan ngoãn. Vui lòng thông báo trước với quản gia khi đặt phòng để chúng tôi sắp xếp căn phòng có sân vườn phù hợp nhất."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Quy định"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "faq-4"
+                  },
+                  "question": {
+                    "valueType": 0,
+                    "stringData": "Tại homestay có tổ chức tiệc nướng BBQ buổi tối không?"
+                  },
+                  "answer": {
+                    "valueType": 0,
+                    "stringData": "Có bạn nhé! Homestay có sẵn bếp than, vỉ nướng, bàn ghế ngoài trời và chuẩn bị than hoa sạch. Bạn có thể tự mang đồ ướp sẵn đến hoặc đặt trước set BBQ rau củ Đà Lạt tươi ngon từ chúng tôi."
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Ẩm thực"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "BookingCTA",
+          "data_fields": [
+            {
+              "key": "cta_title",
+              "valueType": 0,
+              "stringData": "Bạn Đã Sẵn Sàng Trở Về Với Sự Bình Yên?"
+            },
+            {
+              "key": "cta_subtitle",
+              "valueType": 0,
+              "stringData": "Hãy để tiếng thông reo và biển mây sớm mai vỗ về tâm hồn bạn. Đặt phòng trực tiếp để nhận ưu đãi trà chiều miễn phí."
+            },
+            {
+              "key": "cta_button_label",
+              "valueType": 0,
+              "stringData": "Gửi Yêu Cầu Đặt Phòng Ngay"
+            },
+            {
+              "key": "cta_image",
+              "valueType": 4,
+              "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1400&q=85"
+            },
+            {
+              "key": "cta_hotline",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Demo)"
+            }
+          ]
+        },
+        {
+          "layout_name": "Footer",
+          "data_fields": [
+            {
+              "key": "footer_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo-light.svg"
+            },
+            {
+              "key": "footer_brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "footer_description",
+              "valueType": 0,
+              "stringData": "Không gian homestay nghỉ dưỡng giữa miền thông reo đại ngàn Đà Lạt. Nơi bạn tìm lại sự thư thái, kết nối cùng thiên nhiên và những khoảnh khắc sống chậm."
+            },
+            {
+              "key": "footer_address",
+              "valueType": 0,
+              "stringData": "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_hotline",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_email",
+              "valueType": 0,
+              "stringData": "contact@vuonthong.demo"
+            },
+            {
+              "key": "footer_copyright",
+              "valueType": 0,
+              "stringData": "© 2026 VUONTHONG Homestay. Website Template by PDTeam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_name": "Rooms",
+      "path": "/rooms",
+      "layouts": [
+        {
+          "layout_name": "Header",
+          "data_fields": [
+            {
+              "key": "brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "brand_tagline",
+              "valueType": 0,
+              "stringData": "Chạm vào bình yên, giữa miền xanh bất tận"
+            },
+            {
+              "key": "brand_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo.svg"
+            },
+            {
+              "key": "hotline_phone",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Demo)"
+            },
+            {
+              "key": "booking_btn_label",
+              "valueType": 0,
+              "stringData": "Đặt Kỳ Nghỉ"
+            },
+            {
+              "key": "nav_menu",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trang Chủ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Hạng Phòng"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/rooms"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Câu Chuyện"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/about"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trải Nghiệm"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/experiences"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Thư Viện Ảnh"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/gallery"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Liên Hệ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/contact"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "RoomsHero",
+          "data_fields": [
+            {
+              "key": "page_title",
+              "valueType": 0,
+              "stringData": "Tất Cả Hạng Phòng Nghỉ"
+            },
+            {
+              "key": "page_description",
+              "valueType": 0,
+              "stringData": "Tìm không gian phù hợp với kỳ nghỉ của bạn: từ phòng đôi ngắm mây lãng mạn đến bungalow gia đình ấm áp giữa rừng thông."
+            }
+          ]
+        },
+        {
+          "layout_name": "Rooms",
+          "data_fields": [
+            {
+              "key": "rooms_variant",
+              "valueType": 0,
+              "stringData": "editorial"
+            },
+            {
+              "key": "rooms_title",
+              "valueType": 0,
+              "stringData": "Không Gian Chữa Lành"
+            },
+            {
+              "key": "rooms_subtitle",
+              "valueType": 0,
+              "stringData": "Tất cả các phòng đều được chăm chút tỉ mỉ với vật liệu gỗ ấm áp, chăn nệm cao cấp và view trọn thung lũng thông."
+            },
+            {
+              "key": "rooms_list",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "phong-view-thung-lung"
+                  },
+                  "slug": {
+                    "valueType": 0,
+                    "stringData": "phong-view-thung-lung"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Phòng Mây Ngàn · View Thung Lũng"
+                  },
+                  "tagline": {
+                    "valueType": 0,
+                    "stringData": "Tầng cao nhất đón biển mây sáng sớm"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Cửa kính panorama chạm sàn 180 độ hướng thẳng thung lũng thông xanh. Có ban công riêng đón gió mát và bồn tắm gỗ ngâm thảo mộc thiên nhiên."
+                  },
+                  "price_per_night": {
+                    "valueType": 1,
+                    "numberData": 1350000
+                  },
+                  "capacity": {
+                    "valueType": 0,
+                    "stringData": "2 Người lớn"
+                  },
+                  "area_sqm": {
+                    "valueType": 1,
+                    "numberData": 36
+                  },
+                  "bed_type": {
+                    "valueType": 0,
+                    "stringData": "1 Giường King 1m8"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=85"
+                  },
+                  "amenities": {
+                    "valueType": 7,
+                    "arrayString": [
+                      "Ban công ngắm mây",
+                      "Bồn tắm thảo mộc",
+                      "Máy sưởi ấm mùa đông",
+                      "Bữa sáng đặc sản",
+                      "Kệ sách chọn lọc"
+                    ]
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Được yêu thích nhất"
+                  },
+                  "is_featured": {
+                    "valueType": 2,
+                    "booleanData": true
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "phong-ap-mai-am-cung"
+                  },
+                  "slug": {
+                    "valueType": 0,
+                    "stringData": "phong-ap-mai-am-cung"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Phòng Áp Mái · Hơi Thở Gỗ Mộc"
+                  },
+                  "tagline": {
+                    "valueType": 0,
+                    "stringData": "Không gian kín đáo, ấm cúng dành cho cặp đôi"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Mái dốc ốp gỗ thông tự nhiên tỏa hương thơm nhẹ nhàng. Cửa sổ trần đón ánh trăng và nắng sớm le lói bên rặng cây."
+                  },
+                  "price_per_night": {
+                    "valueType": 1,
+                    "numberData": 1050000
+                  },
+                  "capacity": {
+                    "valueType": 0,
+                    "stringData": "2 Người lớn"
+                  },
+                  "area_sqm": {
+                    "valueType": 1,
+                    "numberData": 28
+                  },
+                  "bed_type": {
+                    "valueType": 0,
+                    "stringData": "1 Giường Queen 1m6"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=85"
+                  },
+                  "amenities": {
+                    "valueType": 7,
+                    "arrayString": [
+                      "Cửa sổ trần ngắm sao",
+                      "Máy sấy tóc & trà thơm",
+                      "Đệm lông vũ êm ái",
+                      "Bữa sáng tại phòng"
+                    ]
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Lãng mạn"
+                  },
+                  "is_featured": {
+                    "valueType": 2,
+                    "booleanData": false
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "bungalow-gia-dinh"
+                  },
+                  "slug": {
+                    "valueType": 0,
+                    "stringData": "bungalow-gia-dinh"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Bungalow Vườn Hoa · Nhóm & Gia Đình"
+                  },
+                  "tagline": {
+                    "valueType": 0,
+                    "stringData": "Hiên nhà rộng rãi quây quần bên luống hoa cẩm tú cầu"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Bungalow biệt lập giữa vườn hoa, phòng khách sinh hoạt chung ấm cúng cùng 2 phòng ngủ riêng biệt đầy đủ tiện nghi."
+                  },
+                  "price_per_night": {
+                    "valueType": 1,
+                    "numberData": 2450000
+                  },
+                  "capacity": {
+                    "valueType": 0,
+                    "stringData": "4 - 6 Khách"
+                  },
+                  "area_sqm": {
+                    "valueType": 1,
+                    "numberData": 65
+                  },
+                  "bed_type": {
+                    "valueType": 0,
+                    "stringData": "2 Giường King + Sofa bed"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=85"
+                  },
+                  "amenities": {
+                    "valueType": 7,
+                    "arrayString": [
+                      "Hiên thưởng trà riêng",
+                      "Khu BBQ sân vườn",
+                      "Bếp mini & trà gừng",
+                      "Tủ lạnh & lò vi sóng"
+                    ]
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Không gian rộng"
+                  },
+                  "is_featured": {
+                    "valueType": 2,
+                    "booleanData": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Footer",
+          "data_fields": [
+            {
+              "key": "footer_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo-light.svg"
+            },
+            {
+              "key": "footer_brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "footer_description",
+              "valueType": 0,
+              "stringData": "Không gian homestay nghỉ dưỡng giữa miền thông reo đại ngàn Đà Lạt. Nơi bạn tìm lại sự thư thái, kết nối cùng thiên nhiên và những khoảnh khắc sống chậm."
+            },
+            {
+              "key": "footer_address",
+              "valueType": 0,
+              "stringData": "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_hotline",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_email",
+              "valueType": 0,
+              "stringData": "contact@vuonthong.demo"
+            },
+            {
+              "key": "footer_copyright",
+              "valueType": 0,
+              "stringData": "© 2026 VUONTHONG Homestay. Website Template by PDTeam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_name": "About",
+      "path": "/about",
+      "layouts": [
+        {
+          "layout_name": "Header",
+          "data_fields": [
+            {
+              "key": "brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "brand_tagline",
+              "valueType": 0,
+              "stringData": "Chạm vào bình yên, giữa miền xanh bất tận"
+            },
+            {
+              "key": "brand_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo.svg"
+            },
+            {
+              "key": "hotline_phone",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Demo)"
+            },
+            {
+              "key": "booking_btn_label",
+              "valueType": 0,
+              "stringData": "Đặt Kỳ Nghỉ"
+            },
+            {
+              "key": "nav_menu",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trang Chủ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Hạng Phòng"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/rooms"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Câu Chuyện"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/about"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trải Nghiệm"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/experiences"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Thư Viện Ảnh"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/gallery"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Liên Hệ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/contact"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "AboutHero",
+          "data_fields": [
+            {
+              "key": "page_title",
+              "valueType": 0,
+              "stringData": "Hành Trình Khởi Tạo Trạm Dừng Chân Giữa Đồi Thông"
+            },
+            {
+              "key": "page_description",
+              "valueType": 0,
+              "stringData": "Nơi kết nối con người với thiên nhiên thuần khiết và sự an yên sâu thẳm giữa miền thông reo đại ngàn."
+            }
+          ]
+        },
+        {
+          "layout_name": "AboutStory",
+          "data_fields": [
+            {
+              "key": "about_tagline",
+              "valueType": 0,
+              "stringData": "Triết lý lưu trú"
+            },
+            {
+              "key": "about_title",
+              "valueType": 0,
+              "stringData": "VUONTHONG không chỉ là chốn nghỉ, đó là nhịp điệu của sự tĩnh lặng"
+            },
+            {
+              "key": "about_quote",
+              "valueType": 0,
+              "stringData": "“Mỗi tiếng thông reo trong gió sớm như lời nhắc nhở nhẹ nhàng: hãy buông bỏ lo toan phố thị để thật sự hiện diện nơi đây.”"
+            },
+            {
+              "key": "about_story_p1",
+              "valueType": 0,
+              "stringData": "Được xây dựng từ lòng trân quý đối với địa hình tự nhiên của Đà Lạt, chúng tôi giữ trọn vẹn từng gốc thông cổ thụ, uốn lượn các nếp nhà theo triền dốc tự nhiên để mỗi căn phòng đều sở hữu tầm nhìn không góc chết ra thung lũng."
+            },
+            {
+              "key": "about_story_p2",
+              "valueType": 0,
+              "stringData": "Không có tivi ồn ào hay thiết bị công nghiệp xô bồ. Tại đây chỉ có tiếng lá thông reo, hương thơm nồng của gỗ thông mộc, kệ sách nhỏ bên khung cửa và tách cà phê Arabica Cầu Đất vừa mới rang xay."
+            }
+          ]
+        },
+        {
+          "layout_name": "Footer",
+          "data_fields": [
+            {
+              "key": "footer_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo-light.svg"
+            },
+            {
+              "key": "footer_brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "footer_description",
+              "valueType": 0,
+              "stringData": "Không gian homestay nghỉ dưỡng giữa miền thông reo đại ngàn Đà Lạt. Nơi bạn tìm lại sự thư thái, kết nối cùng thiên nhiên và những khoảnh khắc sống chậm."
+            },
+            {
+              "key": "footer_address",
+              "valueType": 0,
+              "stringData": "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_hotline",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_email",
+              "valueType": 0,
+              "stringData": "contact@vuonthong.demo"
+            },
+            {
+              "key": "footer_copyright",
+              "valueType": 0,
+              "stringData": "© 2026 VUONTHONG Homestay. Website Template by PDTeam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_name": "Experiences",
+      "path": "/experiences",
+      "layouts": [
+        {
+          "layout_name": "Header",
+          "data_fields": [
+            {
+              "key": "brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "brand_tagline",
+              "valueType": 0,
+              "stringData": "Chạm vào bình yên, giữa miền xanh bất tận"
+            },
+            {
+              "key": "brand_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo.svg"
+            },
+            {
+              "key": "hotline_phone",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Demo)"
+            },
+            {
+              "key": "booking_btn_label",
+              "valueType": 0,
+              "stringData": "Đặt Kỳ Nghỉ"
+            },
+            {
+              "key": "nav_menu",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trang Chủ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Hạng Phòng"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/rooms"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Câu Chuyện"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/about"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trải Nghiệm"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/experiences"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Thư Viện Ảnh"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/gallery"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Liên Hệ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/contact"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "ExperiencesHero",
+          "data_fields": [
+            {
+              "key": "page_title",
+              "valueType": 0,
+              "stringData": "Một Ngày Thảnh Thơi Nơi Thung Lũng Sương"
+            },
+            {
+              "key": "page_description",
+              "valueType": 0,
+              "stringData": "Mỗi khoảnh khắc tại VUONTHONG đều mang đến cho bạn cơ hội kết nối lại với chính mình và thiên nhiên thuần khiết."
+            }
+          ]
+        },
+        {
+          "layout_name": "Experiences",
+          "data_fields": [
+            {
+              "key": "experiences_title",
+              "valueType": 0,
+              "stringData": "Nhịp Điệu Kỳ Nghỉ"
+            },
+            {
+              "key": "experiences_subtitle",
+              "valueType": 0,
+              "stringData": "Những khoảnh khắc dung dị giúp bạn tìm lại sự cân bằng trong tâm hồn"
+            },
+            {
+              "key": "experiences_list",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "exp-morning"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "05:30 · Đón Sương Sớm & Ngắm Mây"
+                  },
+                  "time_slot": {
+                    "valueType": 0,
+                    "stringData": "Sáng sớm tinh mơ"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Bước ra ban công khi thung lũng còn ngái ngủ trong làn mây bồng bềnh, thưởng thức tách trà atiso ấm nóng."
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Thiên nhiên"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "exp-afternoon"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "15:00 · Trà Chiều & Đọc Sách Bên Hiên"
+                  },
+                  "time_slot": {
+                    "valueType": 0,
+                    "stringData": "Chiều nắng nhẹ"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Chọn một cuốn tản văn yêu thích trên kệ gỗ, vuốt ve chú cún nhỏ ngoan ngoãn dưới chân hiên rợp bóng thông."
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Tĩnh lặng"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "exp-night"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "19:00 · Đốt Lửa Trại & Khoai Nướng"
+                  },
+                  "time_slot": {
+                    "valueType": 0,
+                    "stringData": "Đêm se lạnh"
+                  },
+                  "description": {
+                    "valueType": 0,
+                    "stringData": "Quây quần bên đốm lửa bập bùng, nghe khúc nhạc mộc mạc acoustic và chia sẻ câu chuyện cùng những người bạn mới."
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "badge": {
+                    "valueType": 0,
+                    "stringData": "Ấm cúng"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Footer",
+          "data_fields": [
+            {
+              "key": "footer_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo-light.svg"
+            },
+            {
+              "key": "footer_brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "footer_description",
+              "valueType": 0,
+              "stringData": "Không gian homestay nghỉ dưỡng giữa miền thông reo đại ngàn Đà Lạt. Nơi bạn tìm lại sự thư thái, kết nối cùng thiên nhiên và những khoảnh khắc sống chậm."
+            },
+            {
+              "key": "footer_address",
+              "valueType": 0,
+              "stringData": "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_hotline",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_email",
+              "valueType": 0,
+              "stringData": "contact@vuonthong.demo"
+            },
+            {
+              "key": "footer_copyright",
+              "valueType": 0,
+              "stringData": "© 2026 VUONTHONG Homestay. Website Template by PDTeam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_name": "Gallery",
+      "path": "/gallery",
+      "layouts": [
+        {
+          "layout_name": "Header",
+          "data_fields": [
+            {
+              "key": "brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "brand_tagline",
+              "valueType": 0,
+              "stringData": "Chạm vào bình yên, giữa miền xanh bất tận"
+            },
+            {
+              "key": "brand_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo.svg"
+            },
+            {
+              "key": "hotline_phone",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Demo)"
+            },
+            {
+              "key": "booking_btn_label",
+              "valueType": 0,
+              "stringData": "Đặt Kỳ Nghỉ"
+            },
+            {
+              "key": "nav_menu",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trang Chủ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Hạng Phòng"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/rooms"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Câu Chuyện"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/about"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trải Nghiệm"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/experiences"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Thư Viện Ảnh"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/gallery"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Liên Hệ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/contact"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "GalleryHero",
+          "data_fields": [
+            {
+              "key": "page_title",
+              "valueType": 0,
+              "stringData": "Khung Hình Thơ Mộng"
+            },
+            {
+              "key": "page_description",
+              "valueType": 0,
+              "stringData": "Những góc nhỏ bình yên, giọt sương mai trên cành thông và nụ cười ấm áp của khách lưu trú tại Vườn Thông."
+            }
+          ]
+        },
+        {
+          "layout_name": "Gallery",
+          "data_fields": [
+            {
+              "key": "gallery_variant",
+              "valueType": 0,
+              "stringData": "masonry"
+            },
+            {
+              "key": "gallery_title",
+              "valueType": 0,
+              "stringData": "Góc Nhìn Thung Lũng"
+            },
+            {
+              "key": "gallery_subtitle",
+              "valueType": 0,
+              "stringData": "Những khung hình lưu lại nét đẹp bình dị qua bốn mùa thông reo."
+            },
+            {
+              "key": "gallery_items",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-1"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Hiên gỗ nhìn ra biển mây"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Cảnh quan"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "wide"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-2"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Phòng ngủ ấm áp ánh đèn vàng"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Phòng nghỉ"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "portrait"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-3"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Bếp củi đêm lạnh"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Khoảnh khắc"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "square"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-4"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Bình minh len qua rặng thông"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Cảnh quan"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "portrait"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-5"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Vườn hoa cẩm tú cầu nở rộ"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Thiên nhiên"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "wide"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Footer",
+          "data_fields": [
+            {
+              "key": "footer_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo-light.svg"
+            },
+            {
+              "key": "footer_brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "footer_description",
+              "valueType": 0,
+              "stringData": "Không gian homestay nghỉ dưỡng giữa miền thông reo đại ngàn Đà Lạt. Nơi bạn tìm lại sự thư thái, kết nối cùng thiên nhiên và những khoảnh khắc sống chậm."
+            },
+            {
+              "key": "footer_address",
+              "valueType": 0,
+              "stringData": "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_hotline",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_email",
+              "valueType": 0,
+              "stringData": "contact@vuonthong.demo"
+            },
+            {
+              "key": "footer_copyright",
+              "valueType": 0,
+              "stringData": "© 2026 VUONTHONG Homestay. Website Template by PDTeam."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_name": "Contact",
+      "path": "/contact",
+      "layouts": [
+        {
+          "layout_name": "Header",
+          "data_fields": [
+            {
+              "key": "brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "brand_tagline",
+              "valueType": 0,
+              "stringData": "Chạm vào bình yên, giữa miền xanh bất tận"
+            },
+            {
+              "key": "brand_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo.svg"
+            },
+            {
+              "key": "hotline_phone",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Demo)"
+            },
+            {
+              "key": "booking_btn_label",
+              "valueType": 0,
+              "stringData": "Đặt Kỳ Nghỉ"
+            },
+            {
+              "key": "nav_menu",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trang Chủ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Hạng Phòng"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/rooms"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Câu Chuyện"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/about"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Trải Nghiệm"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/experiences"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Thư Viện Ảnh"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/gallery"
+                  }
+                },
+                {
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Liên Hệ"
+                  },
+                  "url": {
+                    "valueType": 3,
+                    "urlData": "/contact"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "ContactHero",
+          "data_fields": [
+            {
+              "key": "contact_title",
+              "valueType": 0,
+              "stringData": "Kết Nối Cùng Quản Gia VUONTHONG"
+            },
+            {
+              "key": "contact_subtitle",
+              "valueType": 0,
+              "stringData": "Chúng tôi luôn sẵn sàng lắng nghe và chuẩn bị chu đáo nhất cho chuyến đi của bạn."
+            }
+          ]
+        },
+        {
+          "layout_name": "ContactForm",
+          "data_fields": [
+            {
+              "key": "form_title",
+              "valueType": 0,
+              "stringData": "Phiếu Đặt Phòng & Yêu Cầu Trực Tiếp"
+            },
+            {
+              "key": "form_subtitle",
+              "valueType": 0,
+              "stringData": "Hệ thống sẽ chuyển yêu cầu trực tiếp đến quản gia để kiểm tra phòng trống và phản hồi trong 15 phút."
+            },
+            {
+              "key": "form_fields",
+              "valueType": 9,
+              "arrayObject": [
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "fullName"
+                  },
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Họ và tên của bạn"
+                  },
+                  "placeholder": {
+                    "valueType": 0,
+                    "stringData": "Ví dụ: Nguyễn Phương Linh"
+                  },
+                  "input_type": {
+                    "valueType": 0,
+                    "stringData": "text"
+                  }
+                },
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "phone"
+                  },
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Số điện thoại / Zalo nhận xác nhận"
+                  },
+                  "placeholder": {
+                    "valueType": 0,
+                    "stringData": "0985 xxx xxx"
+                  },
+                  "input_type": {
+                    "valueType": 0,
+                    "stringData": "tel"
+                  }
+                },
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "checkIn"
+                  },
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Ngày nhận phòng (Check-in)"
+                  },
+                  "placeholder": {
+                    "valueType": 0,
+                    "stringData": "DD/MM/YYYY"
+                  },
+                  "input_type": {
+                    "valueType": 0,
+                    "stringData": "date"
+                  }
+                },
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "checkOut"
+                  },
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Ngày trả phòng (Check-out)"
+                  },
+                  "placeholder": {
+                    "valueType": 0,
+                    "stringData": "DD/MM/YYYY"
+                  },
+                  "input_type": {
+                    "valueType": 0,
+                    "stringData": "date"
+                  }
+                },
+                {
+                  "name": {
+                    "valueType": 0,
+                    "stringData": "note"
+                  },
+                  "label": {
+                    "valueType": 0,
+                    "stringData": "Hạng phòng mong muốn & Ghi chú thêm"
+                  },
+                  "placeholder": {
+                    "valueType": 0,
+                    "stringData": "Ví dụ: Phòng Mây Ngàn 2 đêm, cần chuẩn bị thêm hoa chúc mừng..."
+                  },
+                  "input_type": {
+                    "valueType": 0,
+                    "stringData": "textarea"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layout_name": "Footer",
+          "data_fields": [
+            {
+              "key": "footer_logo",
+              "valueType": 4,
+              "resourceData": "/static/vuonthong-logo-light.svg"
+            },
+            {
+              "key": "footer_brand_name",
+              "valueType": 0,
+              "stringData": "VUONTHONG"
+            },
+            {
+              "key": "footer_description",
+              "valueType": 0,
+              "stringData": "Không gian homestay nghỉ dưỡng giữa miền thông reo đại ngàn Đà Lạt. Nơi bạn tìm lại sự thư thái, kết nối cùng thiên nhiên và những khoảnh khắc sống chậm."
+            },
+            {
+              "key": "footer_address",
+              "valueType": 0,
+              "stringData": "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_hotline",
+              "valueType": 0,
+              "stringData": "0900 000 000 (Dữ liệu demo)"
+            },
+            {
+              "key": "footer_email",
+              "valueType": 0,
+              "stringData": "contact@vuonthong.demo"
+            },
+            {
+              "key": "footer_copyright",
+              "valueType": 0,
+              "stringData": "© 2026 VUONTHONG Homestay. Website Template by PDTeam."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
