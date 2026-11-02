@@ -80,7 +80,7 @@ export const GalleryPage: React.FC = () => {
         </div>
       </div>
 
-      <GallerySection forcedVariant={selectedVariant} />
+      <GallerySection forcedVariant={selectedVariant} hideHeader={true} />
       <BookingCTASection />
     </main>
   );

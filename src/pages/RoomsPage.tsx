@@ -88,7 +88,7 @@ export const RoomsPage: React.FC = () => {
         </div>
       </div>
 
-      <RoomsSection forcedVariant={selectedVariant} />
+      <RoomsSection forcedVariant={selectedVariant} hideHeader={true} />
       <BookingCTASection />
     </main>
   );

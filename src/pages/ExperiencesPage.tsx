@@ -50,7 +50,7 @@ export const ExperiencesPage: React.FC = () => {
         </div>
       </div>
 
-      <ExperiencesSection />
+      <ExperiencesSection hideHeader={true} />
       <AmenitiesSection />
       <BookingCTASection />
     </main>

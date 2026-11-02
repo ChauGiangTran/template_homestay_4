@@ -14,7 +14,7 @@ export const FAQSection: React.FC = () => {
 
   const [data, setData] = useState({
     title: "Câu Hỏi Thường Gặp",
-    subtitle: "Một vài lưu ý nhỏ giúp kỳ nghỉ của bạn tại Vườn Thông thêm phần trọn vẹn",
+    subtitle: "Một vài lưu ý nhỏ giúp kỳ nghỉ của bạn tại Vườn Thông thêm phần trọn vẹn và thư thái.",
     items: [
       {
         id: "faq-1",
@@ -88,11 +88,12 @@ export const FAQSection: React.FC = () => {
   };
 
   return (
-    <section className="py-24 lg:py-32 bg-[#FAFBF9]">
+    <section className="py-20 sm:py-28 lg:py-32 bg-[#FAFBF9] border-t border-[#DCE4DD]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <div className="text-xs font-sans text-[#876D4B]">
-            <span className="tracking-wide font-medium">Lưu Ý Nghỉ Dưỡng</span>
+        <div className="text-center max-w-2xl mx-auto mb-14 sm:mb-16 space-y-3.5">
+          <div className="inline-flex items-center gap-2 text-xs font-sans text-[#876D4B]">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#876D4B]" />
+            <span className="tracking-widest uppercase font-medium">Lưu Ý Nghỉ Dưỡng</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#18281E] font-normal leading-tight text-balance">
             {data.title}
@@ -106,7 +107,7 @@ export const FAQSection: React.FC = () => {
           {data.items.map((item) => {
             const isOpen = openId === item.id;
             return (
-              <div key={item.id} className="py-6 transition-colors">
+              <div key={item.id} className="py-5 sm:py-6 transition-colors">
                 <button
                   onClick={() => toggleFAQ(item.id)}
                   className="w-full flex items-center justify-between text-left group"
@@ -115,7 +116,7 @@ export const FAQSection: React.FC = () => {
                   <span className="text-base sm:text-lg font-serif text-[#18281E] group-hover:text-[#876D4B] transition-colors pr-6 font-normal">
                     {item.question}
                   </span>
-                  <div className="w-7 h-7 rounded-none border border-[#DCE4DD] flex items-center justify-center shrink-0 group-hover:border-[#876D4B] transition-colors">
+                  <div className="w-7 h-7 border border-[#DCE4DD] flex items-center justify-center shrink-0 group-hover:border-[#876D4B] transition-colors bg-[#FAFBF9]">
                     <ChevronDown
                       className={`w-4 h-4 text-[#876D4B] transition-transform duration-300 ${
                         isOpen ? "rotate-180" : ""
@@ -125,7 +126,7 @@ export const FAQSection: React.FC = () => {
                 </button>
 
                 {isOpen && (
-                  <div className="mt-4 pr-10 text-sm font-sans text-[#4A584D] leading-relaxed font-light animate-in fade-in-50 duration-200">
+                  <div className="mt-3.5 pr-8 text-sm font-sans text-[#4A584D] leading-relaxed font-light animate-in fade-in-50 duration-200">
                     <p>{item.answer}</p>
                   </div>
                 )}

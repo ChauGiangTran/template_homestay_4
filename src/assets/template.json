@@ -148,7 +148,7 @@
             {
               "key": "hero_image",
               "valueType": 4,
-              "resourceData": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=85"
+              "resourceData": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=85"
             },
             {
               "key": "hero_altitude_spec",
@@ -208,12 +208,12 @@
             {
               "key": "about_main_image",
               "valueType": 4,
-              "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=85"
+              "resourceData": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85"
             },
             {
               "key": "about_secondary_image",
               "valueType": 4,
-              "resourceData": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=85"
+              "resourceData": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=900&q=85"
             }
           ]
         },
@@ -278,7 +278,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=85"
+                    "resourceData": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85"
                   },
                   "amenities": {
                     "valueType": 7,
@@ -292,7 +292,7 @@
                   },
                   "badge": {
                     "valueType": 0,
-                    "stringData": "Được yêu thích nhất"
+                    "stringData": "Signature Suite"
                   },
                   "is_featured": {
                     "valueType": 2,
@@ -338,7 +338,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=85"
+                    "resourceData": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=85"
                   },
                   "amenities": {
                     "valueType": 7,
@@ -393,11 +393,11 @@
                   },
                   "bed_type": {
                     "valueType": 0,
-                    "stringData": "2 Giường King + Sofa bed"
+                    "stringData": "2 Giường King + Sofa"
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=85"
+                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85"
                   },
                   "amenities": {
                     "valueType": 7,
@@ -457,7 +457,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=85"
                   },
                   "badge": {
                     "valueType": 0,
@@ -483,7 +483,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1495640388908-05fa85288e61?auto=format&fit=crop&w=1000&q=85"
                   },
                   "badge": {
                     "valueType": 0,
@@ -509,7 +509,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1000&q=85"
                   },
                   "badge": {
                     "valueType": 0,
@@ -658,7 +658,7 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Hiên gỗ nhìn ra biển mây"
+                    "stringData": "Thung lũng thông reo đón biển mây sớm mai"
                   },
                   "category": {
                     "valueType": 0,
@@ -666,7 +666,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -680,7 +680,7 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Phòng ngủ ấm áp ánh đèn vàng"
+                    "stringData": "Không gian phòng Mây Ngàn ấm cúng"
                   },
                   "category": {
                     "valueType": 0,
@@ -688,7 +688,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -702,7 +702,7 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Bếp củi đêm lạnh"
+                    "stringData": "Bếp lửa bập bùng sưởi ấm đêm lạnh"
                   },
                   "category": {
                     "valueType": 0,
@@ -710,7 +710,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -724,15 +724,15 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Bình minh len qua rặng thông"
+                    "stringData": "Ánh nắng vàng xuyên qua triền đồi thông"
                   },
                   "category": {
                     "valueType": 0,
-                    "stringData": "Cảnh quan"
+                    "stringData": "Thiên nhiên"
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -746,7 +746,29 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Vườn hoa cẩm tú cầu nở rộ"
+                    "stringData": "Tách trà atiso ấm nóng bên hiên gỗ"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Khoảnh khắc"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=85"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "wide"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-6"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Tán thông cổ thụ chạm vào bầu trời sương"
                   },
                   "category": {
                     "valueType": 0,
@@ -754,11 +776,11 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
-                    "stringData": "wide"
+                    "stringData": "square"
                   }
                 }
               ]
@@ -1033,7 +1055,7 @@
             {
               "key": "cta_image",
               "valueType": 4,
-              "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1400&q=85"
+              "resourceData": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=85"
             },
             {
               "key": "cta_hotline",
@@ -1260,7 +1282,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=85"
+                    "resourceData": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85"
                   },
                   "amenities": {
                     "valueType": 7,
@@ -1274,7 +1296,7 @@
                   },
                   "badge": {
                     "valueType": 0,
-                    "stringData": "Được yêu thích nhất"
+                    "stringData": "Signature Suite"
                   },
                   "is_featured": {
                     "valueType": 2,
@@ -1320,7 +1342,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=85"
+                    "resourceData": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=85"
                   },
                   "amenities": {
                     "valueType": 7,
@@ -1375,11 +1397,11 @@
                   },
                   "bed_type": {
                     "valueType": 0,
-                    "stringData": "2 Giường King + Sofa bed"
+                    "stringData": "2 Giường King + Sofa"
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=85"
+                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=85"
                   },
                   "amenities": {
                     "valueType": 7,
@@ -1783,7 +1805,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1000&q=85"
                   },
                   "badge": {
                     "valueType": 0,
@@ -1809,7 +1831,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1495640388908-05fa85288e61?auto=format&fit=crop&w=1000&q=85"
                   },
                   "badge": {
                     "valueType": 0,
@@ -1835,7 +1857,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1000&q=85"
                   },
                   "badge": {
                     "valueType": 0,
@@ -2032,7 +2054,7 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Hiên gỗ nhìn ra biển mây"
+                    "stringData": "Thung lũng thông reo đón biển mây sớm mai"
                   },
                   "category": {
                     "valueType": 0,
@@ -2040,7 +2062,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -2054,7 +2076,7 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Phòng ngủ ấm áp ánh đèn vàng"
+                    "stringData": "Không gian phòng Mây Ngàn ấm cúng"
                   },
                   "category": {
                     "valueType": 0,
@@ -2062,7 +2084,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -2076,7 +2098,7 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Bếp củi đêm lạnh"
+                    "stringData": "Bếp lửa bập bùng sưởi ấm đêm lạnh"
                   },
                   "category": {
                     "valueType": 0,
@@ -2084,7 +2106,7 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -2098,15 +2120,15 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Bình minh len qua rặng thông"
+                    "stringData": "Ánh nắng vàng xuyên qua triền đồi thông"
                   },
                   "category": {
                     "valueType": 0,
-                    "stringData": "Cảnh quan"
+                    "stringData": "Thiên nhiên"
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
@@ -2120,7 +2142,29 @@
                   },
                   "title": {
                     "valueType": 0,
-                    "stringData": "Vườn hoa cẩm tú cầu nở rộ"
+                    "stringData": "Tách trà atiso ấm nóng bên hiên gỗ"
+                  },
+                  "category": {
+                    "valueType": 0,
+                    "stringData": "Khoảnh khắc"
+                  },
+                  "image": {
+                    "valueType": 4,
+                    "resourceData": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=1200&q=85"
+                  },
+                  "aspect_ratio": {
+                    "valueType": 0,
+                    "stringData": "wide"
+                  }
+                },
+                {
+                  "id": {
+                    "valueType": 0,
+                    "stringData": "g-6"
+                  },
+                  "title": {
+                    "valueType": 0,
+                    "stringData": "Tán thông cổ thụ chạm vào bầu trời sương"
                   },
                   "category": {
                     "valueType": 0,
@@ -2128,11 +2172,11 @@
                   },
                   "image": {
                     "valueType": 4,
-                    "resourceData": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+                    "resourceData": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=85"
                   },
                   "aspect_ratio": {
                     "valueType": 0,
-                    "stringData": "wide"
+                    "stringData": "square"
                   }
                 }
               ]

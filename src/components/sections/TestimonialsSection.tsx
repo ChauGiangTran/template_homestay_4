@@ -81,12 +81,13 @@ export const TestimonialsSection: React.FC = () => {
   }, []);
 
   return (
-    <section className="py-24 lg:py-32 bg-[#F7F9F6]">
+    <section className="py-20 sm:py-28 lg:py-32 bg-[#F7F9F6] border-t border-[#DCE4DD]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16 pb-8 border-b border-[#DCE4DD]">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-14 sm:mb-16 pb-8 border-b border-[#DCE4DD]">
           <div className="max-w-2xl space-y-3">
-            <div className="text-xs font-sans text-[#876D4B]">
-              <span className="tracking-wide font-medium">Sổ Lưu Bút Thung Lũng</span>
+            <div className="inline-flex items-center gap-2 text-xs font-sans text-[#876D4B]">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#876D4B]" />
+              <span className="tracking-widest uppercase font-medium">Sổ Lưu Bút Thung Lũng</span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#18281E] font-normal leading-tight text-balance">
               {data.title}
@@ -96,35 +97,37 @@ export const TestimonialsSection: React.FC = () => {
             </p>
           </div>
 
-          {/* Transparent demo data badge */}
           <div className="text-right">
             <span className="inline-block px-3 py-1 bg-[#FAFBF9] border border-[#DCE4DD] text-[11px] font-sans text-[#718073]">
-              Dữ liệu cảm nhận mẫu từ khách trải nghiệm
+              Trang nhật ký lưu trú demo
             </span>
           </div>
         </div>
 
-        {/* Editorial Guestbook Diptych Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16">
+        {/* Editorial Guestbook Notes (Diptych Spread) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {data.testimonials.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col justify-between space-y-8 p-8 sm:p-10 bg-[#FAFBF9] border border-[#DCE4DD] shadow-sm relative group"
+              className="flex flex-col justify-between space-y-6 p-7 sm:p-9 bg-[#FAFBF9] border border-[#DCE4DD] shadow-xs relative group"
             >
               <div className="space-y-4">
-                <span className="text-4xl sm:text-5xl font-serif text-[#876D4B]/25 leading-none block select-none">
-                  “
-                </span>
-                <p className="text-base sm:text-lg font-serif italic text-[#18281E] leading-relaxed font-normal">
-                  {item.quote.replace(/^[“"]|[”"]$/g, "")}
-                </p>
+                <div className="text-xs font-sans text-[#876D4B] flex items-center justify-between border-b border-[#DCE4DD]/60 pb-3">
+                  <span className="font-serif italic text-sm">Ghi chép sau kỳ nghỉ</span>
+                  <span className="tracking-wide">{item.stayDate}</span>
+                </div>
+
+                <blockquote className="text-base sm:text-lg font-serif italic text-[#18281E] leading-relaxed font-light">
+                  “{item.quote.replace(/^[“"]|[”"]$/g, "")}”
+                </blockquote>
               </div>
 
-              <div className="flex items-center gap-4 pt-6 border-t border-[#DCE4DD]/70">
+              <div className="flex items-center gap-4 pt-5 border-t border-[#DCE4DD]/80">
                 <img
                   src={item.avatar}
                   alt={item.guestName}
-                  className="w-11 h-11 rounded-full object-cover border border-[#DCE4DD] filter grayscale-[20%]"
+                  className="w-11 h-11 rounded-full object-cover border border-[#DCE4DD] filter grayscale-[15%]"
+                  loading="lazy"
                 />
                 <div>
                   <h3 className="font-serif font-medium text-base text-[#18281E]">
@@ -132,8 +135,8 @@ export const TestimonialsSection: React.FC = () => {
                   </h3>
                   <div className="flex items-center gap-2 text-xs font-sans text-[#718073] mt-0.5">
                     <span className="text-[#876D4B] font-medium">{item.roomName}</span>
-                    <span>—</span>
-                    <span>{item.stayDate}</span>
+                    <span>•</span>
+                    <span>Đã lưu trú</span>
                   </div>
                 </div>
               </div>

@@ -21,7 +21,7 @@ interface IAmenityItem {
 
 export const AmenitiesSection: React.FC = () => {
   const [data, setData] = useState({
-    title: "Tiện Ích Bản Địa và Tĩnh Tại",
+    title: "Tiện Ích Bản Địa & Tĩnh Tại",
     subtitle: "Chúng tôi giản lược những tiện nghi công nghiệp để bạn có thể tận hưởng trọn vẹn hương vị mộc mạc và sự an yên của núi đồi.",
     items: [
       {
@@ -96,69 +96,65 @@ export const AmenitiesSection: React.FC = () => {
     };
   }, []);
 
+  const romanNumerals = ["01", "02", "03", "04", "05", "06"];
+
   return (
-    <section className="py-24 lg:py-32 bg-[#F7F9F6]">
+    <section className="py-20 sm:py-28 lg:py-32 bg-[#FAFBF9] border-t border-[#DCE4DD]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-          {/* Left Editorial Philosophy */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="text-xs font-sans text-[#876D4B]">
-              <span className="tracking-wide font-medium">Chu Đáo &amp; Thuần Khiết</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#18281E] font-normal leading-tight text-balance">
-              {data.title}
-            </h2>
-            <p className="text-sm sm:text-base font-sans text-[#4A584D] leading-relaxed font-light">
-              {data.subtitle}
-            </p>
-
-            {/* Atmospheric photo insert */}
-            <div className="pt-4">
-              <div className="relative aspect-[4/3] overflow-hidden border border-[#DCE4DD] bg-[#FAFBF9] shadow-sm group">
-                <img
-                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
-                  alt="Không gian thư giãn mộc mạc"
-                  className="w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-700 ease-out"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
-                <div className="absolute bottom-3 left-3 right-3 text-xs text-[#FAFBF9] font-sans">
-                  <span>Hiên thưởng trà chiều bên rặng thông</span>
-                </div>
-              </div>
-            </div>
+        {/* Header Block */}
+        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3.5">
+          <div className="inline-flex items-center gap-2 text-xs font-sans text-[#876D4B]">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#876D4B]" />
+            <span className="tracking-widest uppercase font-medium">Chu Đáo &amp; Thuần Khiết</span>
           </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#18281E] font-normal leading-tight text-balance">
+            {data.title}
+          </h2>
+          <p className="text-sm sm:text-base font-sans text-[#4A584D] leading-relaxed font-light">
+            {data.subtitle}
+          </p>
+        </div>
 
-          {/* Right Clean List with Hairline Dividers */}
-          <div className="lg:col-span-7 divide-y divide-[#DCE4DD] border-y border-[#DCE4DD]">
-            {data.items.map((item) => {
-              const IconComponent = ICON_MAP[item.iconName] || Sun;
-              return (
-                <div
-                  key={item.id}
-                  className="py-7 flex items-start gap-5 sm:gap-6 group transition-colors"
-                >
-                  <div className="p-2.5 bg-[#FAFBF9] border border-[#DCE4DD] text-[#876D4B] shrink-0 group-hover:border-[#876D4B] transition-colors mt-0.5">
-                    <IconComponent className="w-5 h-5 text-[#876D4B]" />
+        {/* Boutique Provisions 4-Column Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          {data.items.map((item, index) => {
+            const IconComponent = ICON_MAP[item.iconName] || Sun;
+            return (
+              <div
+                key={item.id}
+                className="bg-[#F7F9F6] border border-[#DCE4DD] p-7 flex flex-col justify-between space-y-6 shadow-xs group hover:border-[#876D4B]/50 transition-colors"
+              >
+                <div className="space-y-4">
+                  {/* Item index & category */}
+                  <div className="flex items-center justify-between text-xs font-sans border-b border-[#DCE4DD] pb-3">
+                    <span className="font-serif italic text-sm text-[#876D4B] font-medium">
+                      {romanNumerals[index] || `0${index + 1}`}
+                    </span>
+                    <span className="text-[11px] font-sans text-[#718073] tracking-wide uppercase">
+                      {item.category}
+                    </span>
                   </div>
 
-                  <div className="space-y-1.5 flex-1">
-                    <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
-                      <h3 className="text-xl font-serif text-[#18281E] font-normal group-hover:text-[#876D4B] transition-colors">
-                        {item.name}
-                      </h3>
-                      <span className="text-[11px] font-sans text-[#876D4B] uppercase tracking-wider">
-                        {item.category}
-                      </span>
-                    </div>
-                    <p className="text-sm font-sans text-[#4A584D] leading-relaxed font-light max-w-xl">
+                  <div className="w-10 h-10 flex items-center justify-center bg-[#FAFBF9] border border-[#DCE4DD] text-[#876D4B] group-hover:border-[#876D4B] transition-colors">
+                    <IconComponent className="w-5 h-5" />
+                  </div>
+
+                  <div className="space-y-2">
+                    <h3 className="text-lg font-serif text-[#18281E] font-normal leading-snug group-hover:text-[#876D4B] transition-colors">
+                      {item.name}
+                    </h3>
+                    <p className="text-xs sm:text-sm font-sans text-[#4A584D] leading-relaxed font-light">
                       {item.description}
                     </p>
                   </div>
                 </div>
-              );
-            })}
-          </div>
+
+                <div className="pt-2 text-[11px] font-sans text-[#876D4B] flex items-center gap-1 opacity-80">
+                  <span>Trải nghiệm bản địa</span>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { MapPin, Navigation, Compass } from "lucide-react";
+import { MapPin, Navigation, Compass, ArrowUpRight } from "lucide-react";
 import { getClientDataValues } from "../../utils/clientData";
 
 interface IHighlightItem {
@@ -10,9 +10,9 @@ interface IHighlightItem {
 
 export const LocationSection: React.FC = () => {
   const [data, setData] = useState({
-    title: "Vị Trí & Đường Về Vườn Thông",
+    title: "Vị Trí & Đường Về Thung Lũng",
     address: "Đồi Thông Hoàng Hoa Thám, Phường 10, TP. Đà Lạt, Lâm Đồng (Dữ liệu demo)",
-    altitude: "Độ cao 1.520m, cách chợ Đà Lạt 3.8km (Dữ liệu demo)",
+    altitude: "Độ cao 1.520m · Cách trung tâm chợ Đà Lạt 3.8km",
     mapUrl: "https://maps.google.com/?q=Da+Lat",
     highlights: [
       {
@@ -81,18 +81,20 @@ export const LocationSection: React.FC = () => {
   }, []);
 
   return (
-    <section className="py-24 lg:py-32 bg-[#FAFBF9]">
+    <section className="py-20 sm:py-28 lg:py-32 bg-[#FAFBF9] border-t border-[#DCE4DD]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Left Details */}
           <div className="lg:col-span-6 space-y-6">
-            <div className="text-xs font-sans text-[#876D4B]">
-              <span className="tracking-wide font-medium">Chỉ Dẫn Hành Trình</span>
+            <div className="inline-flex items-center gap-2 text-xs font-sans text-[#876D4B]">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#876D4B]" />
+              <span className="tracking-widest uppercase font-medium">Chỉ Dẫn Hành Trình</span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#18281E] font-normal leading-tight text-balance">
               {data.title}
             </h2>
 
+            {/* Address Banner */}
             <div className="p-6 bg-[#F7F9F6] border border-[#DCE4DD] space-y-3 shadow-xs">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#876D4B] shrink-0 mt-0.5" />
@@ -106,7 +108,8 @@ export const LocationSection: React.FC = () => {
               </div>
             </div>
 
-            <div className="space-y-4 pt-2">
+            {/* Distance Highlights */}
+            <div className="space-y-3 pt-1">
               <h3 className="text-xs font-sans font-medium text-[#18281E] uppercase tracking-wider">
                 Khoảng cách đến các địa điểm trọng điểm:
               </h3>
@@ -132,19 +135,20 @@ export const LocationSection: React.FC = () => {
                 href={data.mapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#18281E] text-[#FAFBF9] hover:bg-[#23392B] active:scale-[0.98] text-xs font-sans font-medium tracking-wide transition-all shadow-sm"
+                className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#18281E] text-[#FAFBF9] hover:bg-[#23392B] active:scale-[0.98] text-xs font-sans font-medium tracking-wide transition-all shadow-xs group"
               >
-                <Navigation className="w-3.5 h-3.5" />
+                <Navigation className="w-3.5 h-3.5 text-[#876D4B]" />
                 <span>Mở Trên Google Maps</span>
+                <ArrowUpRight className="w-3.5 h-3.5 text-white/60 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
             </div>
           </div>
 
-          {/* Right Visual Map Card */}
-          <div className="lg:col-span-6 relative aspect-[4/3] border border-[#DCE4DD] overflow-hidden bg-[#F0F4F1] shadow-md group">
+          {/* Right Visual Image */}
+          <div className="lg:col-span-6 relative aspect-[4/3] border border-[#DCE4DD] overflow-hidden bg-[#F0F4F1] shadow-sm group">
             <img
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
-              alt="Cảnh quan đường đến thung lũng"
+              src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80"
+              alt="Cung đường thông reo Hoàng Hoa Thám"
               className="w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-700 ease-out"
               loading="lazy"
             />

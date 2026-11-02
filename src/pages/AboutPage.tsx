@@ -49,7 +49,7 @@ export const AboutPage: React.FC = () => {
         </div>
       </div>
 
-      <AboutStorySection />
+      <AboutStorySection hideHeader={true} />
 
       {/* Sustainable & Mindful Living Details */}
       <section className="py-24 bg-[#FAFBF9]">

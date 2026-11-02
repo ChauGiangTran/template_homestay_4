@@ -10,7 +10,7 @@ export const BookingCTASection: React.FC = () => {
     title: "Bạn Đã Sẵn Sàng Trở Về Với Sự Bình Yên?",
     subtitle: "Hãy để tiếng thông reo và biển mây sớm mai vỗ về tâm hồn bạn. Đặt phòng trực tiếp để nhận ưu đãi trà chiều miễn phí.",
     buttonLabel: "Gửi Yêu Cầu Đặt Phòng Ngay",
-    image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1400&q=85",
+    image: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=85",
     hotline: "0900 000 000 (Demo)",
   });
 
@@ -46,22 +46,33 @@ export const BookingCTASection: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative py-28 lg:py-36 overflow-hidden">
+    <section className="relative py-24 sm:py-32 lg:py-36 overflow-hidden">
       {/* Background image with cinematic rich forest overlay */}
       <img
         src={data.image}
-        alt="Kỳ nghỉ thung lũng"
+        alt="Kỳ nghỉ thung lũng thông reo"
         className="absolute inset-0 w-full h-full object-cover scale-105"
+        loading="lazy"
       />
       <div className="absolute inset-0 bg-[#121E16]/85" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-[#FAFBF9] space-y-7">
-        <div className="inline-block text-xs font-sans text-[#DCE4DD]/90">
+        <div className="inline-flex items-center gap-2 text-xs font-sans text-[#DCE4DD]/90 bg-white/5 backdrop-blur-xs px-3.5 py-1 border border-white/10">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#876D4B]" />
           <span className="tracking-widest uppercase font-medium">Trạm Dừng Chân An Lành</span>
         </div>
 
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-normal leading-[1.14] text-balance">
-          {data.title}
+          {data.title.includes("Trở Về") || data.title.includes("trở về") ? (
+            <>
+              <span className="block">Bạn Đã Sẵn Sàng Trở Về</span>
+              <span className="block font-serif italic text-[#876D4B] font-light mt-1 sm:mt-2">
+                Với Sự Bình Yên?
+              </span>
+            </>
+          ) : (
+            data.title
+          )}
         </h2>
 
         <p className="text-base sm:text-lg text-[#DCE4DD]/90 font-sans max-w-2xl mx-auto leading-relaxed font-light">
@@ -84,7 +95,7 @@ export const BookingCTASection: React.FC = () => {
         <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
           <button
             onClick={() => openBookingModal()}
-            className="w-full sm:w-auto px-8 py-4 bg-[#FAFBF9] text-[#18281E] hover:bg-[#F0F4F1] active:scale-[0.98] text-xs font-sans font-medium tracking-wide transition-all flex items-center justify-center gap-2.5 shadow-lg group"
+            className="w-full sm:w-auto px-8 py-3.5 bg-[#FAFBF9] text-[#18281E] hover:bg-[#F0F4F1] active:scale-[0.98] text-xs font-sans font-medium tracking-wide transition-all flex items-center justify-center gap-2.5 shadow-lg group"
           >
             <Calendar className="w-4 h-4 text-[#876D4B] transition-transform group-hover:scale-110" />
             <span>{data.buttonLabel}</span>
@@ -92,7 +103,7 @@ export const BookingCTASection: React.FC = () => {
 
           <a
             href={`tel:${data.hotline.replace(/\s+/g, "")}`}
-            className="w-full sm:w-auto px-7 py-4 bg-transparent border border-[#FAFBF9]/40 text-[#FAFBF9] hover:bg-white/10 active:scale-[0.98] text-xs font-sans font-medium tracking-wide transition-all flex items-center justify-center gap-2"
+            className="w-full sm:w-auto px-7 py-3.5 bg-transparent border border-[#FAFBF9]/40 text-[#FAFBF9] hover:bg-white/10 active:scale-[0.98] text-xs font-sans font-medium tracking-wide transition-all flex items-center justify-center gap-2"
           >
             <Phone className="w-4 h-4 text-[#DCE4DD]" />
             <span>Hotline: {data.hotline}</span>
